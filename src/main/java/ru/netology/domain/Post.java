@@ -11,9 +11,9 @@ public class Post {
     private int friendsOnly;
     private int post_type;
     private int signerId;
-    private int canPin;
-    private int canDelete;
-    private int canEdit;
+    private boolean canPin;
+    private boolean canDelete;
+    private boolean canEdit;
     private int isPinned;
     private int markedAsAds;
     private int postponedId;
